@@ -41,4 +41,4 @@ jobs:
     - name: debug output 
       id: output 
       if: ${{ failure() }}
-      run: cat /home/runner/work/TypeRunner/TypeRunner/build/CMakeFiles/CMakeOutput.log
+      run: cat /home/runner/work/TypeRunner/TypeRunner/build/CMakeFiles/CMakeError.log
